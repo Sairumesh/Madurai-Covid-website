@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" type="text/css" href="css1/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css1/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css1/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="css1/style.css">
+    <link rel="stylesheet" type="text/css" href="inde.css">
+    <title>Info</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+       <link rel="stylesheet" href="css/owl.carousel.min.css"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style type="text/css">
+         body{
+         background-image:url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+         background-size:cover;
+     }
+     h1 { 
+       display: block;
+       font-size: 2em;
+       text-align: center;
+       margin-top: 0.em;
+       margin-bottom: 0.67em;
+       margin-left: ;
+       margin-right: 0;
+       font-weight: bold;
+     }
+     
+     </style>
+     
+   </head>
+   <!-- body -->
+   <body class="main-layout inner_page">
+      <!-- loader  -->
+       <!-- loader  -->
+       <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+      <!-- top -->
+                    <!-- header -->
+         <header class="header-area">
+            <div class="left">
+               <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+            <div class="right">
+               <a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a>
+            </div>
+            <div class="container">
+               <div class="row d_flex">
+                  <div class="col-sm-3 logo_sm">
+                     <div class="logo">
+                        <a href="index.html"></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-9">
+                     <div class="navbar-area">
+                        <nav class="site-navbar">
+                           <ul>
+                              <li><a href="index.html"class="logo_midle"><b>Home</b></a></li>
+                              <li><a href="news.html"><b>News</b></a></li>
+                              <li><a href="tweets.html"><b>Tweets</b></a></li>
+							  <li><a href="Covid area.html"><b>Tracker</b></a></li>
+                             
+                              <li><a href="advisories.html" ><b>Advisories</b></a></li>
+                              <li><a href="volunteer.html"><b>Volunteer</b></a></li>
+                               
+                              <li><a href="contact.html"><b>Contact</b> </a></li>
+							  <li><h3 style="color:white;"><b>Arogya Setu &#8680;</b></h3></l
+                           </ul>
+                           <button class="nav-toggler">
+                           <span></span>
+                           </button>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+      <!-- end header -->
+      <!-- end banner -->
+     <!-- coronata -->
+      <div class="coronata" style="background-image: url('https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'); background-size:cover; ">
+         
+         <h1>Madurai area wise covid status</h1>
+     <div class="tabling container">
+     <table id="maintable" class="display compact cell-border container" cellspacing="0" width="50%">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Place</th>
+        <th>No of Active cases</th>
+        <th>No of death</th>
+        <th>No of recovered</th>
+        <th>Help-line no</th>
+        
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+                            <td>1</td>
+                            <td>Thiruparakundram</td>
+                            <td>7</td>
+                            <td>0</td>
+                            <td>10</td>
+                            <td>044-29510500</td>
+                        </tr>
+                        <tr>
+                           <td> 2</td>
+                           <td> T.kallupatti</td>
+                           <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                          <td>044-29510500</td>
+                        </tr>
+                        <tr>
+                            <td> 3</td>
+							<td> Thirumangalam</td>
+							<td>9</td>
+                            <td>0</td>
+                            <td>8</td>
+							<td>044-29510500</td>
+                        </tr>
+                        <tr>
+                           <td> 4</td>
+						   <td> Kalligudi</td>
+						   <td>5</td>
+                            <td>0</td>
+                            <td>8</td>
+							<td>044-29510500</td>
+                        </tr>
+                       <tr>
+        <td> 5</td>
+        <td> Sedapatti</td>
+        <td>6</td>
+        <td>0</td>
+        <td>5</td>
+        <td>044-29510500</td>
+    </tr>
+    <tr>
+        <td> 6</td>
+        <td> Usilampatti</td>
+        <td>9</td>
+        <td>0</td>
+        <td>5</td>
+        <td>044-29510500</td>
+    </tr>
+    <tr>
+        <td> 7</td>
+        <td> Vadipatti</td>
+        <td>12</td>
+        <td>0</td>
+        <td>10</td>
+        <td>044-29510500</td>
+    </tr>
+    <tr>
+        <td> 8</td>
+        <td> Melur</td>
+        <td>8</td>
+        <td>0</td>
+        <td>11</td>
+        <td>044-29510500</td>
+    </tr>
+    <tr>
+        <td> 9</td>
+        <td> Madurai West</td>
+        <td>14</td>
+        <td>0</td>
+        <td>14</td>
+        <td>044-29510500</td>
+    </tr>
+    <tr>
+        <td> 10</td>
+        <td> Madurai East</td>
+        <td>20</td>
+        <td>2</td>
+        <td>18</td>
+        <td>044-29510500</td>
+    </tr>
+    <tr>
+        <td> 11</td>
+        <td> Kottampatti</td>
+        <td>6</td>
+        <td>0</td>
+        <td>5</td>
+        <td>044-29510500</td>
+    </tr>
+    <tr>
+        <td> 12</td>
+        <td> Alanganallur</td>
+        <td>9</td>
+        <td>0</td>
+        <td>8</td>
+        <td>044-29510500</td>
+    </tr>
+    <tr>
+        <td> 13</td>
+        <td> Chellampatti</td>
+        <td>6</td>
+        <td>0</td>
+        <td>9</td>
+        <td>044-29510500</td>
+    </tr>
+    
+    </tbody>
+    <tfoot style="background-color: #c0c0c0; color: #ffffff; font-size: 0.9em; ">
+    <tr>
+        <th>ID</th>
+        <th>Place</th>
+        <th>No of cases</th>
+        <th>No of death</th>
+        <th>No of recovered</th>
+        <th>ID</th>
+    </tr>
+    
+     
+       
+    </tfoot>
+</table>
+</div> 
+</div>
+
+   
+      <!-- end coronata -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                           <div class="hedingh3 text_align_left">
+                              <h3>Resources</h3>
+                              <ul class="menu_footer">
+                                 <li><a href="index.html">Home</a><li>
+                                 <li><a href="javascript:void(0)">What we do</a><li>
+                                 <li> <a href="javascript:void(0)">Media</a><li>
+                                 <li> <a href="javascript:void(0)">Travel Advice</a><li>
+                                 <li><a href="javascript:void(0)">Protection</a><li>
+                                 <li><a href="javascript:void(0)">Care</a><li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                           <div class="hedingh3 text_align_left">
+                             <h3>About</h3>
+                              <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various</p>
+                           </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                           <div class="hedingh3  text_align_left">
+                              <h3>Contact  Us</h3>
+                              <ul class="top_infomation">
+                                <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                Making this the first true</li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i>
+                                Call : +01 1234567890 </li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                                <a href="Javascript:void(0)">Email : demo@gmail.com</a></li>
+                              </ul>  
+                           </div>
+                        </div>
+                     <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="hedingh3 text_align_left">
+                              <h3>countrys</h3>
+                           <div class="map">
+                              <img src="images/map.png" alt="#"/>
+                           </div>
+                        </div>
+                     </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-8 offset-md-2">
+                        <p>© 2020 All Rights Reserved. Design by <a href="https://html.design/"> Free html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/custom.js"></script>
+<script type="text/javascript" src="js1/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="js1/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js1/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="js1/jszip.min.js"></script>
+<script type="text/javascript" src="js1/pdfmake.min.js"></script>
+<script type="text/javascript" src="js1/vfs_fonts.js"></script>
+<script type="text/javascript" src="js1/buttons.html5.min.js"></script>
+<script type="text/javascript" src="js1/buttons.print.min.js"></script>
+<script type="text/javascript" src="js1/app.js"></script>
+<script type="text/javascript" src="js1/jquery.mark.min.js"></script>
+<script type="text/javascript" src="js1/datatables.mark.js"></script>
+<script type="text/javascript" src="js1/buttons.colVis.min.js"></script>
+   </body>
+</html>

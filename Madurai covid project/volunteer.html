@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer form</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Covido</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+       <link rel="stylesheet" href="css/owl.carousel.min.css"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <style>
+       *, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  
+   
+  
+}
+
+html { 
+  background: url(https://images.unsplash.com/photo-1583423230902-b653abc541eb?ixlib=rb-1.2.1&q=80) no-repeat  fixed;
+  background-size: cover;
+  
+
+ 
+}
+
+form {
+  max-width: 300px;
+  margin: 5px auto;
+  padding: 20px 60px;
+  background: #f4f7f8;
+  border-radius: 80px;
+  
+  
+   
+}
+
+
+   
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 1px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 750px;
+  }
+   </style>
+   <!-- body -->
+   <body class="main-layout inner_page">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+      <!-- top -->
+                    <!-- header -->
+                  <header class="header-area">
+            <div class="right">
+			
+			<a href = "http://bit.ly/AarogyaSetu_PS" target = "_BLANK" title = "For Android"><img src = "https://img.icons8.com/color/48/000000/google-play.png" width="20" height="40"></a> <a href = "https://apple.co/2X1KMzO" target = "_BLANK" title = "For iPhone"><img src="https://img.icons8.com/color/48/000000/ios-logo.png" width="20" height="40"></a>
+               <!--a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a-->
+            </div>
+            <div class="left">
+               <a href="login.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+            </div>
+            <div class="container">
+               <div class="row d_flex">
+                  <div class="col-sm-3 logo_sm">
+                     <div class="logo">
+                        <a href="index.html"></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-9">
+                     <div class="navbar-area">
+                        <nav class="site-navbar">
+                           <ul>
+                              <li><a href="index.html" class="logo_midle"><b>Home</b></a></li>
+                              <li><a href="news.html"><b>News</b></a></li>
+                              <li><a href="tweets.html"><b>Tweets</b></a></li>
+							  <li><a href="info.html"><b>Tracker</b></a></li>
+                             
+                              <li><a href="advisories.html" ><b>Advisories</b></a></li>
+                              <li><a href="volunteer.html"><b>Volunteer</b></a></li>
+                               
+                              <li><a href="contact.html"><b>Contact</b> </a></li>
+							  <li><h3 style="color:white;"><b>Arogya Setu &#8680;</b></h3></li>
+                           </ul>
+                           <button class="nav-toggler">
+                           <span></span>
+                           </button>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         
+      <!-- end header -->
+    
+    <!-- cases -->
+      <div class="cases" style="background: url(https://images.unsplash.com/photo-1583423230902-b653abc541eb?ixlib=rb-1.2.1&q=80) no-repeat  fixed;
+  background-size: cover;">
+         <h2 style="color:white"><center>Volunteer yourself to save our Madurai!. E-certificates will be provided!</center></h2><br>
+         <form action="index.html" method="post">
+  
+            <h1>Volunteer form</h1>
+            
+            <fieldset>
+              <legend><span class="number">1</span>Basic info</legend>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+              
+              <label for="contact">Phone number:</label>
+              <input type="text" id="contact" name="contact">
+              
+              <label for="age">Password:</label>
+              <input type="text" id="age" name="age">
+        
+              <label for="address">Address</label>
+              <textarea id="address" name="adress"></textarea>
+              
+              
+            </fieldset>
+            
+            <fieldset>
+              <legend><span class="number">2</span>Detailed info</legend>
+              <label for="skills">Please let us know how your skills can be used!</label>
+              <textarea id="skills" name="skills"></textarea>
+        
+              <label for="time">Please mention your preferrable time!</label>
+              <input type="text" id="time" name="time">
+        
+              <label for="info">Any other information we should know?</label>
+              <textarea id="info" name="info"></textarea>
+        
+            </fieldset>
+        
+            
+            
+            <button type="submit">Sign Up</button>
+          </form>
+          
+      </div>
+      <!-- end cases -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                           <div class="hedingh3 text_align_left">
+                              <h3>Resources</h3>
+                              <ul class="menu_footer">
+                                 <li><a href="index.html">Home</a><li>
+                                 <li><a href="news.html"> News update</a><li>
+                                 <li> <a href="tweets.html">Tweet</a><li>
+                                 <li> <a href="volunteer.html">Volunteer </a><li>
+                                 <li><a href="advisories.html">Advisories</a><li>
+                                 <li><a href="contact.html">Contact</a><li>
+                              </ul>
+                             
+           
+                           </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                           <div class="hedingh3 text_align_left">
+                             <h3>About</h3>
+                              <p>Madurai Covid website provides necessary details about Corona virus , preventive steps, Latest news update etc</p>
+                           </div>
+                        </div>
+                     
+                
+                       
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                           <div class="hedingh3  text_align_left">
+                              <h3>Contact  Us</h3>
+                                <ul class="top_infomation">
+                        
+                        <li><i class="fa fa-phone" aria-hidden="true"></i>
+                           Call : 044-29510500
+                        </li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                           <a href="Javascript:void(0)">Email : collrmdu@nic.in</a>
+                        </li>
+                     </ul>
+                            
+                           
+                     </div>
+                  </div>
+                     <div class="col-lg-4 col-md-6 col-sm-6">
+                           <div class="hedingh3 text_align_left">
+                              <h3>Map</h3>
+                              <div class="map">
+                                <img src="images/map.png" alt="#"/>
+                              </div>
+                           </div>
+                        </div>
+                    
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-8 offset-md-2">
+                        <p>© 2020  Madurai Covid website</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
